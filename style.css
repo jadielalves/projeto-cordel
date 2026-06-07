@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    font-family: var(--fonte1);
+}
+
+header{
+    
+    min-width: 320px;
+    min-height: 120px;
+    padding: 40px;
+    color: white;
+    background-color: black;
+
+    text-align: center;
+}
+
+header h1{
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 5px;
+
+    min-width: 320px;
+    max-height: 150px;
+
+    font-family: var(--fonte2);
+    font-weight: 700;
+    font-size: 3.2em;
+    font-variant: small-caps;
+
+    text-align: center;
+}
+
+header p{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header p > a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main p{
+    padding-left: 20px;
+}
+
+main{
+    
+    background-color: white;
+}
+
+main article{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin: 60px 0px ;
+
+    font-family: var(--fonte3);
+
+}
+
+
+
+#girassol{
+
+    
+    color: white;
+    
+    margin: 0px;
+
+    background: white url('pacote-d012/imagens/background001.jpg') right center/cover no-repeat fixed;
+    
+    text-shadow: 1px 1px 0px black;
+
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
+}
+
+#livro{
+   color: white;
+    
+    margin: 0px;
+
+   background: white url('pacote-d012/imagens/background002.jpg') right center/cover no-repeat fixed; 
+
+   text-shadow: 1px 1px 0px black;
+
+   box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.425);
+}
+
+
+main p{
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.3;
+    padding: -20px;
+    
+}
+
+footer{
+    color: white;
+    background-color: black;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
