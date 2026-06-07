@@ -36,12 +36,11 @@ header h1{
     padding: 20px;
     padding-bottom: 5px;
 
-    min-width: 320px;
-    max-height: 150px;
+    font-size: 10vw;
 
     font-family: var(--fonte2);
     font-weight: 700;
-    font-size: 3.2em;
+    
     font-variant: small-caps;
 
     text-align: center;
@@ -68,6 +67,8 @@ main{
 }
 
 main article{
+    font-size: 3.5vw;
+
     padding-top: 10vh;
     padding-bottom: 10vh;
     margin: 60px 0px ;
@@ -106,6 +107,7 @@ main article{
 
 
 main p{
+    
     font-size: 1.2em;
     font-weight: 700;
     line-height: 1.3;
